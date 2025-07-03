@@ -8,12 +8,16 @@ import CrudIntro from "./What_is_Components/crud/CrudIntro";
 import Crud from "./What_is_Components/crud/Crud";
 import ContextIntro from "./What_is_Components/ContextAPI/ContextIntro";
 import { context } from "./What_is_Components/ContextAPI/SubComponents/Store";
+import HomeTask from "./HomeTasks/HomeTask";
+import UseEffectIntro from "./What_is_Components/Hooks/useEffectHook/UseEffectIntro";
+import AxiosIntro from "./What_is_Components/Axios/AxiosIntro";
+import HOCIntro from "./What_is_Components/HigherOrderComponent/HOCIntro";
 
 
 
 const App = () => {
   const data = useContext(context);
-  console.log(data);
+  // console.log(data);
     return (
       <div>
         {/* jsx Introduction and rules ! */}
@@ -47,8 +51,20 @@ const App = () => {
         {/* <div>
           <Crud/>
         </div> */}
-        <div>
+        {/* <div>
           <ContextIntro/>
+        </div> */}
+        {/* <div>
+          <HomeTask/>
+        </div> */}
+        {/* <div>
+          <UseEffectIntro/>
+        </div> */}
+        {/* <div>
+          <AxiosIntro/>
+        </div> */}
+         <div>
+          <HOCIntro/>
         </div>
       </div>
     );
