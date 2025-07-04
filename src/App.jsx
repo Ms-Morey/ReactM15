@@ -13,6 +13,7 @@ import UseEffectIntro from "./What_is_Components/Hooks/useEffectHook/UseEffectIn
 import AxiosIntro from "./What_is_Components/Axios/AxiosIntro";
 import HOCIntro from "./What_is_Components/HigherOrderComponent/HOCIntro";
 import UseMemoIntro from "./What_is_Components/Hooks/useMemoHook/UseMemoIntro";
+import MemoizationIntro from "./What_is_Components/Memoization/MemoizationIntro";
 
 
 
@@ -67,8 +68,11 @@ const App = () => {
          {/* <div>
           <HOCIntro/>
         </div> */}
-        <div>
+        {/* <div>
           <UseMemoIntro/>
+        </div> */}
+        <div>
+          <MemoizationIntro/>
         </div>
       </div>
     );
