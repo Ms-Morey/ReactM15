@@ -12,6 +12,7 @@ import HomeTask from "./HomeTasks/HomeTask";
 import UseEffectIntro from "./What_is_Components/Hooks/useEffectHook/UseEffectIntro";
 import AxiosIntro from "./What_is_Components/Axios/AxiosIntro";
 import HOCIntro from "./What_is_Components/HigherOrderComponent/HOCIntro";
+import UseMemoIntro from "./What_is_Components/Hooks/useMemoHook/UseMemoIntro";
 
 
 
@@ -63,8 +64,11 @@ const App = () => {
         {/* <div>
           <AxiosIntro/>
         </div> */}
-         <div>
+         {/* <div>
           <HOCIntro/>
+        </div> */}
+        <div>
+          <UseMemoIntro/>
         </div>
       </div>
     );

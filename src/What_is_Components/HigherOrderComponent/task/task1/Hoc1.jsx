@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const Hoc1 = () => {
-  return (
-    <div>Hoc1</div>
-  )
-}
+const Hoc1 = (Cbc1) => {
+  return Cbc1;
+};
 
 export default Hoc1;
