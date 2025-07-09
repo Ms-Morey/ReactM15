@@ -10,7 +10,7 @@ const MemoizationIntro = () => {
         onClick={() => setCount(count + 1)}
         className="bg-amber-500 text-white font-semibold py-1 px-3 m-2 rounded-md"
       >
-        count:{count}
+        count : {count}
       </button>
       <hr />
       <MemoizationIntroChild />

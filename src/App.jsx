@@ -14,6 +14,7 @@ import AxiosIntro from "./What_is_Components/Axios/AxiosIntro";
 import HOCIntro from "./What_is_Components/HigherOrderComponent/HOCIntro";
 import UseMemoIntro from "./What_is_Components/Hooks/useMemoHook/UseMemoIntro";
 import MemoizationIntro from "./What_is_Components/Memoization/MemoizationIntro";
+import Loader from "./What_is_Components/Loader";
 
 
 
@@ -71,7 +72,9 @@ const App = () => {
         {/* <div>
           <UseMemoIntro/>
         </div> */}
+        
         <div>
+          {/* <Loader/> */}
           <MemoizationIntro/>
         </div>
       </div>
