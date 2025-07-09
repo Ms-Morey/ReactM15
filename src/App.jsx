@@ -15,6 +15,7 @@ import HOCIntro from "./What_is_Components/HigherOrderComponent/HOCIntro";
 import UseMemoIntro from "./What_is_Components/Hooks/useMemoHook/UseMemoIntro";
 import MemoizationIntro from "./What_is_Components/Memoization/MemoizationIntro";
 import Loader from "./What_is_Components/Loader";
+import RouteIntro from "./What_is_Components/Routing/RouteIntro";
 
 
 
@@ -75,7 +76,10 @@ const App = () => {
         
         <div>
           {/* <Loader/> */}
-          <MemoizationIntro/>
+          {/* <MemoizationIntro/> */}
+        </div>
+        <div>
+          <RouteIntro/>
         </div>
       </div>
     );
