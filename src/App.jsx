@@ -16,11 +16,12 @@ import UseMemoIntro from "./What_is_Components/Hooks/useMemoHook/UseMemoIntro";
 import MemoizationIntro from "./What_is_Components/Memoization/MemoizationIntro";
 import Loader from "./What_is_Components/Loader";
 import RouteIntro from "./What_is_Components/Routing/RouteIntro";
+import UseReducerIntro from "./What_is_Components/Hooks/useReducerHook/UseReducerIntro";
 
 
 
 const App = () => {
-  const data = useContext(context);
+  // const data = useContext(context);
   // console.log(data);
     return (
       <div>
@@ -74,12 +75,15 @@ const App = () => {
           <UseMemoIntro/>
         </div> */}
         
-        <div>
+        {/* <div> */}
           {/* <Loader/> */}
           {/* <MemoizationIntro/> */}
-        </div>
-        <div>
+        {/* </div> */}
+        {/* <div>
           <RouteIntro/>
+        </div> */}
+        <div>
+          <UseReducerIntro/>
         </div>
       </div>
     );
