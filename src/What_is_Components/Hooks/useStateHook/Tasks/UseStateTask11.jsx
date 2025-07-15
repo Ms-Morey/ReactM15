@@ -1,4 +1,3 @@
-import { list } from "postcss";
 import React, { useState } from "react";
 
 // Display a list of random items.
