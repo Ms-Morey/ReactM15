@@ -17,6 +17,8 @@ import MemoizationIntro from "./What_is_Components/Memoization/MemoizationIntro"
 import Loader from "./What_is_Components/Loader";
 import RouteIntro from "./What_is_Components/Routing/RouteIntro";
 import UseReducerIntro from "./What_is_Components/Hooks/useReducerHook/UseReducerIntro";
+import CustomHookIntro from "./What_is_Components/CustomHooks/CustomHookIntro";
+import HomePage from "./What_is_Components/ComponentReusability/HomePage";
 
 
 
@@ -82,8 +84,15 @@ const App = () => {
         {/* <div>
           <RouteIntro/>
         </div> */}
-        <div>
+        {/* <div>
           <UseReducerIntro/>
+        </div> */}
+
+        {/* <div>
+          <CustomHookIntro/>
+        </div> */}
+        <div>
+          <HomePage/>
         </div>
       </div>
     );
