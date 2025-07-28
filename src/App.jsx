@@ -19,6 +19,7 @@ import RouteIntro from "./What_is_Components/Routing/RouteIntro";
 import UseReducerIntro from "./What_is_Components/Hooks/useReducerHook/UseReducerIntro";
 import CustomHookIntro from "./What_is_Components/CustomHooks/CustomHookIntro";
 import HomePage from "./What_is_Components/ComponentReusability/HomePage";
+import ReduxApp from "./ReduxToolkit/ReduxApp";
 
 
 
@@ -91,8 +92,11 @@ const App = () => {
         {/* <div>
           <CustomHookIntro/>
         </div> */}
-        <div>
+        {/* <div>
           <HomePage/>
+        </div> */}
+        <div>
+          <ReduxApp/>
         </div>
       </div>
     );
