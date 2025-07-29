@@ -20,6 +20,7 @@ import UseReducerIntro from "./What_is_Components/Hooks/useReducerHook/UseReduce
 import CustomHookIntro from "./What_is_Components/CustomHooks/CustomHookIntro";
 import HomePage from "./What_is_Components/ComponentReusability/HomePage";
 import ReduxApp from "./ReduxToolkit/ReduxApp";
+import Practice from "./Practice50/Practice";
 
 
 
@@ -95,8 +96,11 @@ const App = () => {
         {/* <div>
           <HomePage/>
         </div> */}
-        <div>
+        {/* <div>
           <ReduxApp/>
+        </div> */}
+        <div>
+          <Practice/>
         </div>
       </div>
     );
