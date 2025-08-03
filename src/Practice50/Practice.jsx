@@ -128,7 +128,7 @@ const Practice = () => {
         {/* <T38_ToggleHook/> */}
         {/* <T41_BasicRoutingSetup/> */}
         {/* <T42_ProductDetailsRoute/> */}
-        <T43_NavBarWithHighlight/>
+        {/* <T43_NavBarWithHighlight/> */}
 
        </div>
     </div>
