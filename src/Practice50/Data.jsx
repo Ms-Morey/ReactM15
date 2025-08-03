@@ -18,7 +18,7 @@ export const hobbies = [
   "Knitting",
   "Yoga",
   "Meditation",
-  "Blogging"
+  "Blogging",
 ];
 
 export const movies = [
@@ -31,6 +31,145 @@ export const movies = [
   { name: "The Matrix", releaseYear: 1999 },
   { name: "Interstellar", releaseYear: 2014 },
   { name: "Parasite", releaseYear: 2019 },
-  { name: "Gladiator", releaseYear: 2000 }
+  { name: "Gladiator", releaseYear: 2000 },
 ];
 
+export const products = [
+  {
+    id: 4823,
+    name: "Wireless Mouse",
+    category: "Electronics",
+    price: 799,
+    inStock: true,
+    inCart: false,
+  },
+  {
+    id: 9147,
+    name: "Bluetooth Speaker",
+    category: "Electronics",
+    price: 1599,
+    inStock: false,
+    inCart: false,
+  },
+  {
+    id: 3012,
+    name: "Yoga Mat",
+    category: "Fitness",
+    price: 499,
+    inStock: true,
+    inCart: false,
+  },
+  {
+    id: 6759,
+    name: "Ceramic Coffee Mug",
+    category: "Home & Kitchen",
+    price: 299,
+    inStock: true,
+    inCart: false,
+  },
+  {
+    id: 2378,
+    name: "Running Shoes",
+    category: "Footwear",
+    price: 2499,
+    inStock: false,
+    inCart: false,
+  },
+  {
+    id: 8340,
+    name: "Desk Lamp",
+    category: "Home & Office",
+    price: 699,
+    inStock: true,
+    inCart: false,
+  },
+  {
+    id: 7481,
+    name: "USB-C Charger",
+    category: "Electronics",
+    price: 1199,
+    inStock: true,
+    inCart: false,
+  },
+  {
+    id: 5624,
+    name: "Notebook Set",
+    category: "Stationery",
+    price: 349,
+    inStock: true,
+    inCart: false,
+  },
+  {
+    id: 1926,
+    name: "T-shirt - Cotton",
+    category: "Apparel",
+    price: 699,
+    inStock: false,
+    inCart: false,
+  },
+  {
+    id: 6590,
+    name: "Portable Hard Drive 1TB",
+    category: "Electronics",
+    price: 4299,
+    inStock: true,
+    inCart: false,
+  },
+];
+
+export const themes = [
+  {
+    id: "light",
+    name: "Light",
+    bg: "bg-white",
+    text: "text-gray-800",
+    card: "bg-gray-50",
+    button: "bg-gray-500 hover:bg-blue-800",
+    border: "border-gray-200",
+  },
+  {
+    id: "dark",
+    name: "Dark",
+    bg: "bg-gray-900",
+    text: "text-white",
+    card: "bg-gray-800",
+    button: "bg-slate-800 hover:bg-blue-800",
+    border: "border-gray-700",
+  },
+  {
+    id: "orange",
+    name: "Orange",
+    bg: "bg-orange-200",
+    text: "text-orange-900",
+    card: "bg-orange-200",
+    button: "bg-orange-800 hover:bg-blue-800",
+    border: "border-orange-300",
+  },
+  {
+    id: "blue",
+    name: "Blue",
+    bg: "bg-blue-50",
+    text: "text-blue-900",
+    card: "bg-blue-100",
+    button: "bg-blue-500 hover:bg-blue-800",
+    border: "border-blue-200",
+  },
+];
+
+export const colors = [
+  "Red",
+  "Blue",
+  "Green",
+  "Yellow",
+  "Purple",
+  "Orange",
+  "Pink",
+  "Brown",
+  "Black",
+  "White",
+  "Gray",
+  "Cyan",
+  "Magenta",
+  "Lime",
+  "Teal",
+];
