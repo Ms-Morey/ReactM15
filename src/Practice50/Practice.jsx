@@ -39,6 +39,9 @@ import T36_ReusableApiHook from './Tasks/T36_ReusableApiHook'
 import T37_WindowSizeTrackingHook from './Tasks/T37_WindowSizeTrackingHook'
 import T38_ToggleHook from './Tasks/T38_ToggleHook'
 import T39_CachedUserFetchingHook from './Tasks/T39_CachedUserFetchingHook'
+import T41_BasicRoutingSetup from './Tasks/T41_BasicRoutingSetup'
+import T42_ProductDetailsRoute from './Tasks/T42_ProductDetailsRoute'
+import T43_NavBarWithHighlight from './Tasks/T43_NavBarWithHighlight'
 
 const Practice = () => {
     const [state, setState] = useState({username:"", age:"", list:[]})
@@ -123,7 +126,9 @@ const Practice = () => {
         {/* <T36_ReusableApiHook/> */}
         {/* <T37_WindowSizeTrackingHook/> */}
         {/* <T38_ToggleHook/> */}
-        
+        {/* <T41_BasicRoutingSetup/> */}
+        {/* <T42_ProductDetailsRoute/> */}
+        <T43_NavBarWithHighlight/>
 
        </div>
     </div>
